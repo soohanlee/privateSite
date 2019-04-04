@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-
+import {
+    SkilContainer
+} from './skil.style';
 class skil extends Component {
     render() {
         return (
-            <div>
-                3
-            </div>
+            <SkilContainer>
+                
+            </SkilContainer>
         );
     }
 }

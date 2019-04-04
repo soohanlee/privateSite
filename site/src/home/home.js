@@ -64,8 +64,9 @@ class home extends Component {
                     
                     >
                     <Profile></Profile>
-                    <Picture ></Picture>
                     <Skil></Skil>
+                    <Picture ></Picture>
+                   
                 </ReactPageScroller>
                 <Pagination className="pagination-additional-class" bsSize="large">
                     {pagesNumbers}

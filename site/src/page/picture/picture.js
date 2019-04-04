@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-
+import {
+    PictureContainer
+} from './picture.style';
 class picture extends Component {
     render() {
         return (
-            <div>
+            <PictureContainer>
                 2
-            </div>
+            </PictureContainer>
         );
     }
 }
